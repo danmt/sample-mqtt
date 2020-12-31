@@ -1,0 +1,17 @@
+{
+  "name": "sample-mqtt",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start:sample-1": "node src/sample-1.js",
+    "start:sample-2": "node src/sample-2.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "mqtt": "^4.2.6",
+    "uuid": "^8.3.2"
+  }
+}
